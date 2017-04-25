@@ -1,6 +1,6 @@
 require 'rails_helper'
 RSpec.feature 'Create Home Page' do
-  senario do
+  scenario do
     visit '/'
     
     expect(page).to have_link('Athletes Den')
